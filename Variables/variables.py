@@ -31,4 +31,12 @@ print name
 name = 300.000000000056
 print name
 
-print Temp # o/p = NameError: name 'Temp' is not defined
+try:
+  print Temp # o/p = NameError: name 'Temp' is not defined
+except Exception as e:
+    print e
+
+#Special Literal
+
+Temp = None
+print Temp

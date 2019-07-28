@@ -118,3 +118,5 @@ print T+T #o/p = (1, 3.4, 'pretty', 'hello', -5, 1.00005, 1, 3.4, 'pretty', 'hel
 print T*2 #o/p = (1, 3.4, 'pretty', 'hello', -5, 1.00005, 1, 3.4, 'pretty', 'hello', -5, 1.00005)
 
 print type(T) #o/p = <type 'tuple'>
+
+print T[3] # o/p = hello
