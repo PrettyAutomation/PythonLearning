@@ -30,3 +30,5 @@ print name
 
 name = 300.000000000056
 print name
+
+print Temp # o/p = NameError: name 'Temp' is not defined
