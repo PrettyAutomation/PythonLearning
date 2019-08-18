@@ -207,6 +207,20 @@ kolkata
 Delhi
 Bangalore
 ```
+### e.g. for str method and f string
+```
+total = input("enter the value of total: ")
+if total<100:
+    print total+20
+elif total>100 and total<500:
+    print total+50
+else:
+    print total+100
+
+print total
+print "total" + str(total)
+print f("my total value is {total}") # Doubt need to be clear
+```
 ##### Practice Question
 
 - Q1. Try to draw following patterns input will be n

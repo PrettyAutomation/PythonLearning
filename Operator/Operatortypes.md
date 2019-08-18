@@ -21,17 +21,18 @@ print a>b  #False
 ```
 ### assignment operators
 ```
-print a += b  #Getting invalid syntax for the assignment operators error
-print a -= 20
-print a *= 2
-print a %= b
-print a **= 2
-print a //= b
-print a &= b
-print a ^= b
-print a |= b
-print a >>= b  #(shift digits from right side)
-print a <<= b  #(shift digits from Left side)
+print a += b  #it will give syntax invalid error
+a -= 20
+print a # Ans=0
+a *= 2
+a %= b
+a **= 2
+a //= b
+a &= b
+a ^= b
+a |= b
+a >>= b  #(shift digits from right side)
+a <<= b  #(shift digits from Left side)
 ```
 ### Logical operators
 ```
