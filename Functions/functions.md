@@ -38,7 +38,7 @@ o/p = USA
       India
       New Delhi
 ```
-### Recursive function
+### Recursive function: A func calls itself
 ```
 def fact(number):
     if(number>1):
@@ -115,7 +115,7 @@ o/p = sonam == 56
       naveen == 10
 
 ```
-### lambda function
+### lambda function : A func without any name (Anonymous function)
 ```
 cube = lambda x: x*x*x
 
