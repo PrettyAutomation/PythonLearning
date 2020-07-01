@@ -10,14 +10,10 @@
 # print 10 in a
 # print 50 not in a
 
-a=b = 3
-print a
-print b
-
-
-
-
-# no = 64
+# a=b = 3
+# print(a)
+# print(b)
+# n = 64
 
 #       2 < 56
 # 2*2 = 4 <56

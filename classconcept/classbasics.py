@@ -1,39 +1,46 @@
 class Test:
+    pass
 
     # A sample method
-    def fun(self):
+    @staticmethod
+    def fun():
         print("Hello")
+
 
 # Driver code
 obj = Test()
 obj.fun()
 
-class car:
+
+class Car:
+    pass
 # the variable which defines in the class called class variable
     wheels = 4
+
 # Every method and constructor will have "self" parameter
-    def __init__ (self):
-         print "i am in default constructor"
+    def __init__(self):
+        print("i am in default constructor")
 
 # Python will consider the latest constructor
-    def __init__ (self, color):
-         print "i am in default constructor"
-         self.color = color
-         print self.color
+    def __init__(self, color):
+        print("i am in default constructor")
+        self.color = color
+        print(self.color)
 
-    def test(self):
+    @staticmethod
+    def test():
         print("test method")
 
 # variable defined inside the method called instance variable
-    def setPrice(self,price):
+    def __init__(self, price):
         self.price = price
+        print(self.price)
 
-    def getPrice(self):
-        return self.price
 
-# crearing object of the class
-c1 = car("Red")
-print c1.wheels
+# creating object of the class
+c1 = Car("Red")
+print(c1.wheels)
 c1.test()
-c1.setPrice(1000)
-print c1.getPrice()
+c1 = Car(1000)
+
+
