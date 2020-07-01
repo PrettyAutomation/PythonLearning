@@ -1,7 +1,7 @@
-#IF Else Block
+# IF Else Block
 # if False:
 #     number = None
-#     number = input("Enter a Number:") #input funtion will type cast given string but raw_input will not
+#     number = input("Enter a Number:") #input function will type cast given string but raw_input will not
 #     number1 = raw_input("Enter the value:")
 #     print type(number)
 #     print type(number1) # always will be str
@@ -16,7 +16,7 @@
 #          print type(number)
 #          print number
 #          if number.keys().count("name") > 0:
-#              print "name key is availbale in the Map"
+#              print "name key is available in the Map"
 #          else:
 #               print "name key is not in the Map"
 #
@@ -62,27 +62,27 @@
 # else:
 #     print "Number does not have 0 at the unit position"
 
-### e.g. for str method and f string
+# e.g. for str method and f string
 
-a=10
-b=500
-c=100
+a = 10
+b = 500
+c = 100
 
-if a>b and a>c:
-    print "a is highest number"
-elif b>c:
-    print "b is highest number"
+if a > b and a > c:
+    print("a is highest number")
+elif b > c:
+    print("b is highest number")
 else:
-    print "c is highest number"
+    print("c is highest number")
 
 total = input("enter the value of total: ")
-if total<100:
-    print total+20
-elif total>100 and total<500:
-    print total+50
+if int(total) < 100:
+    print(total+20)
+elif 100 > total < 500:
+    print(total+50)
 else:
-    print total+100
+    print(total+100)
 
-print total
-print "total" + str(total)
-print f "my total value is {total}""
+print(total)
+print("total" + str(total))
+print("my total value is {total}")
